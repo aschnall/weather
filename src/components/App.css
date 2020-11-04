@@ -1,0 +1,58 @@
+body {
+	background-color: #114cd075;
+}
+
+.search {
+	margin-top: 10px;
+}
+
+.forecast-box {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-gap: 25px;
+	margin-top: 20px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.city {
+	display: flex;
+	justify-content: center;
+	margin: 15px 0 30px 0;
+	font-size: 24px;
+}
+
+.daily h3 {
+	text-transform: capitalize;
+	margin-top: 0;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.daily {
+	animation-name: fadeIn;
+	animation-duration: 3s;
+	max-width: 200px;
+	margin: 0 auto;
+	text-align: center;   
+	border: 1px solid black;  
+	padding: 15px 15px 35px 15px;	
+	background-color: #c3cac3;	
+} 
+
+div.ui.segment {
+	background-color: #c3cac3;
+	width: 50vw;
+	margin: 0 auto;
+}
