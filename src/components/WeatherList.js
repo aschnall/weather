@@ -25,5 +25,4 @@ const WeatherList = ({weather}) => {
 export default WeatherList;
 
 
-// class WeatherList extends React.Component {
 	
