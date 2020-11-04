@@ -15,6 +15,7 @@ const WeatherCard = ({ date, type, icon, temp }) => {
 	);
 };
 
+export default WeatherCard;
 
 
 
